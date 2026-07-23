@@ -44,7 +44,7 @@ const Nav = () => {
         </nav>
         <div className="hidden md:block">
           <Button asChild variant="hero" size="sm">
-            <a href={CHECKOUT_URL}>Enroll Now</a>
+            <a href="/checkout">Enroll Now</a>
           </Button>
         </div>
         <button className="md:hidden" onClick={() => setOpen(!open)} aria-label="Menu">
@@ -57,7 +57,7 @@ const Nav = () => {
             {links.map((l) => (
               <a key={l.href} href={l.href} onClick={() => setOpen(false)} className="text-sm">{l.label}</a>
             ))}
-            <Button asChild variant="hero"><a href={CHECKOUT_URL}>Enroll Now</a></Button>
+            <Button asChild variant="hero"><a href="/checkout">Enroll Now</a></Button>
           </div>
         </div>
       )}
@@ -86,7 +86,7 @@ const Hero = () => (
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
             <Button asChild variant="hero" size="xl">
-              <a href={CHECKOUT_URL}>Join the Program · PKR 999 <ArrowRight className="ml-1" /></a>
+              <a href="/checkout">Join the Program · PKR 999 <ArrowRight className="ml-1" /></a>
             </Button>
             <Button asChild variant="outline" size="xl">
               <a href="#program">See How It Works</a>
@@ -374,7 +374,7 @@ const Pricing = () => (
           </ul>
 
           <Button asChild variant="hero" size="xl" className="w-full">
-            <a href={CHECKOUT_URL}>Enroll Now — Lock Your Seat <ArrowRight className="ml-1" /></a>
+            <a href="/checkout">Enroll Now — Lock Your Seat <ArrowRight className="ml-1" /></a>
           </Button>
           <p className="text-center text-xs text-muted-foreground mt-4">
             Secure checkout · Seats limited to keep the session interactive
@@ -432,7 +432,7 @@ const FinalCTA = () => (
       </p>
       <div className="mt-9 flex flex-col sm:flex-row gap-4 justify-center">
         <Button asChild variant="hero" size="xl">
-          <a href={CHECKOUT_URL}>Enroll Now · PKR 999 <ArrowRight className="ml-1" /></a>
+          <a href="/checkout">Enroll Now · PKR 999 <ArrowRight className="ml-1" /></a>
         </Button>
         <Button asChild variant="outline" size="xl"><a href="#faq">Read FAQ</a></Button>
       </div>
