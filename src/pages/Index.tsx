@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ArrowRight, Check, ChevronRight, Play, ShieldCheck, Star, Target, MessageCircle, CalendarCheck, BarChart3, PhoneCall, Search, Zap } from "lucide-react";
+import { ArrowRight, Check, ChevronRight, Play, ShieldCheck, Star, Target, MessageCircle, CalendarCheck, BarChart3, PhoneCall, Search, Zap, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
